@@ -37,7 +37,7 @@ class AlbumList extends Component {
   }
 
   render() {
-    const { textStyle, viewStyle } = styles; 
+    const { viewStyle } = styles; 
     console.log(this.state);
     return (
       <View style={viewStyle}>
@@ -49,10 +49,10 @@ class AlbumList extends Component {
 
 const styles = {
   viewStyle: {
-    backgroundColor: 'aqua',
+    backgroundColor: 'white',
     justifyContent: 'flex-start',
-    alignItems: 'center',
-    height: 150,
+    //alignItems: 'center',
+    height: 500,
     paddingTop: 1,
     shadowColor: '#000',
     shadowOpacity: 0.2,
